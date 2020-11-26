@@ -26,7 +26,8 @@ extra-source-files:
 
 library:
   ## Common fields
-  source-dirs:                      []
+  source-dirs:
+    - "02-logic&smt"
   ghc-options:                      -fplugin=LiquidHaskell
   ## Library fields
   # exposed:
