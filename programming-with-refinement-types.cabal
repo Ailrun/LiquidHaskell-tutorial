@@ -1,0 +1,26 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 423c926ed336b39f4968307865c12a6d60adcf9209f0c55ea272cea5cc1b5dbb
+
+name:           programming-with-refinement-types
+version:        0.1.0.0
+author:         Junyoung Clare Jang
+maintainer:     Junyoung Clare Jang
+copyright:      2020 Junyoung clare Jang
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+
+library
+  other-modules:
+      Paths_programming_with_refinement_types
+  ghc-options: -fplugin=LiquidHaskell
+  build-depends:
+      liquid-base >=4.14 && <5
+    , liquidhaskell
+  default-language: Haskell2010

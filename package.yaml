@@ -1,0 +1,83 @@
+spec-version:                       0.31.0
+name:                               programming-with-refinement-types
+version:                            0.1.0.0
+# synopsis:
+# description:
+# category:
+# homepage:
+# bug-reports:
+author:                             Junyoung Clare Jang
+# maintainer:
+copyright:                          2020 Junyoung clare Jang
+license:                            BSD3
+# license-file:
+# tested-with:
+# build-type:
+extra-source-files:
+  - README.md
+# extra-doc-files:
+# data-files:
+# data-dir:
+# github:
+# custom-setup:
+  # dependencies:
+
+# flags:
+
+library:
+  ## Common fields
+  source-dirs:                      []
+  ghc-options:                      -fplugin=LiquidHaskell
+  ## Library fields
+  # exposed:
+  # exposed-modules:
+  # generated-exposed-modules:
+  # other-modules:
+  # generated-other-modules:
+  # reexported-modules:
+  # signatures:
+
+# internal-libraries:
+
+# executables:
+
+# executable:
+
+# tests:
+
+# benchmarks:
+
+# defaults:
+  # github:
+  # ref:
+  # path:
+  # local:
+
+## Common fields
+# buildable:
+# source-dirs:
+# default-extensions:
+# other-extensions:
+# ghc-options:
+# ghc-prof-options:
+# ghcjs-options:
+# cpp-options:
+# cc-options:
+# c-sources:
+# cxx-options:
+# cxx-sources:
+# js-sources:
+# extra-lib-dirs:
+# extra-libraries:
+# include-dirs:
+# install-includes:
+# frameworks:
+# extra-frameworks-dirs:
+# ld-options:
+dependencies:
+  - liquid-base >= 4.14 && < 5
+  - liquidhaskell
+# pkg-config-dependencies:
+# build-tools:
+# system-build-tools:
+# when:
