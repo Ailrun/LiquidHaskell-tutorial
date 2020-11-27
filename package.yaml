@@ -31,6 +31,7 @@ library:
     - "03-refinement_types"
     - "04-polymorphism"
     - "05-refined_datatypes"
+    - "06-boolean_measures"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
