@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0fbc396e7fe8d7104e1c21b12ef0ee633f0bdf291796dd9ab7281767d62a1559
+-- hash: 1d8aa1a78800a63fdc8af8a657c50ecff8835ef9695466ed6c8f6c2823888c20
 
 name:           programming-with-refinement-types
 version:        0.1.0.0
@@ -20,13 +20,16 @@ library
   exposed-modules:
       Code02
       Code03
+      Code04
   other-modules:
       Paths_programming_with_refinement_types
   hs-source-dirs:
       02-logic&smt
       03-refinement_types
+      04-polymorphism
   ghc-options: -fplugin=LiquidHaskell
   build-depends:
-      liquid-base >=4.14 && <5
+      liquid-base
+    , liquid-vector
     , liquidhaskell
   default-language: Haskell2010

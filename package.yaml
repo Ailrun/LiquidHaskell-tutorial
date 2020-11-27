@@ -29,8 +29,13 @@ library:
   source-dirs:
     - "02-logic&smt"
     - "03-refinement_types"
+    - "04-polymorphism"
   ghc-options:
     - -fplugin=LiquidHaskell
+  dependencies:
+    - liquid-base
+    - liquid-vector
+    - liquidhaskell
   ## Library fields
   # exposed:
   # exposed-modules:
@@ -77,9 +82,7 @@ library:
 # frameworks:
 # extra-frameworks-dirs:
 # ld-options:
-dependencies:
-  - liquid-base >= 4.14 && < 5
-  - liquidhaskell
+# dependencies:
 # pkg-config-dependencies:
 # build-tools:
 # system-build-tools:

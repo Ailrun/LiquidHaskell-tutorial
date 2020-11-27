@@ -42,7 +42,9 @@ packages:
 extra-deps:
   - Diff-0.3.4
   - liquid-base-4.14.1.0
+  - liquid-fixpoint-0.8.10.2
   - liquid-ghc-prim-0.6.1
+  - liquid-vector-0.12.1.2
   - liquidhaskell-0.8.10.2
 
 # Override default flag values for local packages and extra-deps
