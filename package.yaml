@@ -28,7 +28,9 @@ library:
   ## Common fields
   source-dirs:
     - "02-logic&smt"
-  ghc-options:                      -fplugin=LiquidHaskell
+    - "03-refinement_types"
+  ghc-options:
+    - -fplugin=LiquidHaskell
   ## Library fields
   # exposed:
   # exposed-modules:
