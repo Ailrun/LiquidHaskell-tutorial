@@ -30,6 +30,7 @@ library:
     - "02-logic&smt"
     - "03-refinement_types"
     - "04-polymorphism"
+    - "05-refined_datatypes"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
