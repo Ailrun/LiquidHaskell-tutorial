@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ff47b4db1439e971c48c510a7c212cf5fa58897554721fc9405fbe26c22cc0ad
+-- hash: fdd3d564a7aa70740de21f8175233931317e246aa9ddce4f6927d24e5cf717cb
 
 name:           programming-with-refinement-types
 version:        0.1.0.0
@@ -23,6 +23,8 @@ library
       Code04
       Code05
       Code06
+      Code07
+      Code07Transpose
   other-modules:
       Paths_programming_with_refinement_types
   hs-source-dirs:
@@ -31,6 +33,7 @@ library
       04-polymorphism
       05-refined_datatypes
       06-boolean_measures
+      07-numeric_measures
   ghc-options: -fplugin=LiquidHaskell
   build-depends:
       liquid-base
