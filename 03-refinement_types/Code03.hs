@@ -14,11 +14,12 @@ one   = 1 :: Int
 two   = 2 :: Int
 three = 3 :: Int
 
--- nonsense :: Int
--- nonsense = one'
---   where
---   {-@ one' :: Zero @-}
---   one' = 1
+{-@ fail nonsense @-}
+nonsense :: Int
+nonsense = one'
+  where
+  {-@ one' :: Zero @-}
+  one' = 1
 
 {-@ type Nat   = {v:Int | 0 <= v}        @-}
 {-@ type Even  = {v:Int | v mod 2 == 0 } @-}
@@ -40,13 +41,15 @@ cannotDie = if 1 + 1 == 3
               then die "horrible death"
               else ()
 
--- canDie = if 1 + 1 == 2
---            then die "horrible death"
---            else ()
+{-@ fail canDie @-}
+canDie = if 1 + 1 == 2
+           then die "horrible death"
+           else ()
 
--- divide'     :: Int -> Int -> Int
--- divide' n 0 = die "divide by zero"
--- divide' n d = n `div` d
+{-@ fail divide' @-}
+divide'     :: Int -> Int -> Int
+divide' n 0 = die "divide by zero"
+divide' n d = n `div` d
 
 {-@ divide :: Int -> NonZero -> Int @-}
 divide :: Int -> Int -> Int
@@ -92,7 +95,8 @@ lAssert True  x = x
 lAssert False _ = die "yikes, assertion fails!"
 
 yes = lAssert (1 + 1 == 2) ()
--- no  = lAssert (1 + 1 == 3) ()
+{-@ fail no @-}
+no  = lAssert (1 + 1 == 3) ()
 
 truncate :: Int -> Int -> Int
 truncate i max

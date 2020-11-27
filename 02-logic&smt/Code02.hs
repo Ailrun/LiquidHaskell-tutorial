@@ -21,8 +21,9 @@ True  <=> False = False
 {-@ ex0 :: TRUE @-}
 ex0 = True
 
--- {-@ ex0' :: TRUE @-}
--- ex0' = False
+{-@ fail ex0' @-}
+{-@ ex0' :: TRUE @-}
+ex0' = False
 
 {-@ ex1 :: Bool -> TRUE @-}
 ex1 b = b || not b
@@ -55,8 +56,9 @@ exDeMorgan2 a b = not (a && b) <=> (not a || not b)
 {-@ ax0 :: TRUE @-}
 ax0 = 1 + 1 == 2
 
--- {-@ ax0' :: TRUE @-}
--- ax0' = 1 + 1 == 3
+{-@ fail ax0' @-}
+{-@ ax0' :: TRUE @-}
+ax0' = 1 + 1 == 3
 
 {-@ ax1 :: Int -> TRUE @-}
 ax1 :: Int -> Bool
