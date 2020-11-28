@@ -19,6 +19,13 @@ packages:
   original:
     hackage: liquid-base-4.14.1.0
 - completed:
+    hackage: liquid-containers-0.6.2.1@sha256:e04f83f398818b11bdabe7df3219bb6d300edb083bf3bf21f8ff8e220552a8c9,2293
+    pantry-tree:
+      size: 2143
+      sha256: 94c0c12f8eb26f93359d97347dd71132cacd82b79052bb2cedf5282899128ede
+  original:
+    hackage: liquid-containers-0.6.2.1
+- completed:
     hackage: liquid-fixpoint-0.8.10.2@sha256:1646c4cc5f81349356a0d37bd3c8f4db74ced9e1707a2e19915c8d2fa6ae9e43,7306
     pantry-tree:
       size: 14011
@@ -32,6 +39,13 @@ packages:
       sha256: b8b0bde3cc45e2e7f3517f24aa8a96e224bfb5cab08df4259cf2a597d9748104
   original:
     hackage: liquid-ghc-prim-0.6.1
+- completed:
+    hackage: liquid-prelude-0.8.10.2@sha256:b2a3650092e3eecfff5e5b15052700c2d6ba5eecbf20d91eae552da23783b03e,1604
+    pantry-tree:
+      size: 1029
+      sha256: 17fffd9d59ef7d3e7fa04b89174250bab84af77822d3f5de0124d608aa6827c6
+  original:
+    hackage: liquid-prelude-0.8.10.2
 - completed:
     hackage: liquid-vector-0.12.1.2@sha256:80d4152c27ab7f97a6757e0fe48c9b58bc31ca5a57aca35bde966353dd449d26,2061
     pantry-tree:

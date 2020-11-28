@@ -42,8 +42,10 @@ packages:
 extra-deps:
   - Diff-0.3.4
   - liquid-base-4.14.1.0
+  - liquid-containers-0.6.2.1
   - liquid-fixpoint-0.8.10.2
   - liquid-ghc-prim-0.6.1
+  - liquid-prelude-0.8.10.2
   - liquid-vector-0.12.1.2
   - liquidhaskell-0.8.10.2
 

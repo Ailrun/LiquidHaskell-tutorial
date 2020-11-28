@@ -33,10 +33,13 @@ library:
     - "05-refined_datatypes"
     - "06-boolean_measures"
     - "07-numeric_measures"
+    - "08-elemental-measures"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
     - liquid-base
+    - liquid-containers
+    - liquid-prelude
     - liquid-vector
     - liquidhaskell
   ## Library fields
