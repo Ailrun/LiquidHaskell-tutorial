@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0783ef1197386312e705e69ca514b73380debbc052a19b90a7436981cdd2929e
+-- hash: e9a1842cb5ed40c70cca7dc08a4f2fb460b46aaad58bcbccca0988b7e17b6c88
 
 name:           programming-with-refinement-types
 version:        0.1.0.0
@@ -27,6 +27,7 @@ library
       Code07Transpose
       Code08
       Code09
+      Code10
   other-modules:
       Paths_programming_with_refinement_types
   hs-source-dirs:
@@ -38,6 +39,7 @@ library
       07-numeric_measures
       08-elemental-measures
       09-case_study_okasaki's_lazy_queues
+      10-case_study_associative_maps
   ghc-options: -fplugin=LiquidHaskell
   build-depends:
       liquid-base

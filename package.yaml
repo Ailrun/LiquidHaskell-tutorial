@@ -35,6 +35,7 @@ library:
     - "07-numeric_measures"
     - "08-elemental-measures"
     - "09-case_study_okasaki's_lazy_queues"
+    - "10-case_study_associative_maps"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
