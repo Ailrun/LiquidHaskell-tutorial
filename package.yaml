@@ -36,10 +36,12 @@ library:
     - "08-elemental-measures"
     - "09-case_study_okasaki's_lazy_queues"
     - "10-case_study_associative_maps"
+    - "11-case_study_pointers&bytes"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
     - liquid-base
+    - liquid-bytestring
     - liquid-containers
     - liquid-prelude
     - liquid-vector
