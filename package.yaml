@@ -37,6 +37,7 @@ library:
     - "09-case_study_okasaki's_lazy_queues"
     - "10-case_study_associative_maps"
     - "11-case_study_pointers&bytes"
+    - "12-case_study_AVL_trees"
   ghc-options:
     - -fplugin=LiquidHaskell
   dependencies:
